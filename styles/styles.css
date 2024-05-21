@@ -1,0 +1,436 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+.header{
+    width: 100%;
+    height: 93px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    background-color: #fff;
+    font-family: "Poppins";
+}
+.header__container{
+max-width: 1200px;
+
+
+}
+.header__container li{
+    list-style: none;
+    display: flex;
+   
+    gap: 40px;
+}
+li a{
+    text-decoration: none;
+  font-family: "Poppins";
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+
+text-align: left;
+color: #282B22;
+transition: all 0.5s;
+
+
+    
+}
+li a:hover{
+
+    content: '';
+    color: rgb(135, 224, 210);
+}
+.flex{
+    align-items: center;
+    display: flex;
+}
+
+.hero{
+    width: 1600px;
+    height: 687px;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%) ,
+    url("/images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png");
+    background-repeat: no-repeat;
+    
+
+}
+.fortop{
+    width: 100%;
+    height: 96px;
+
+}
+
+
+.hero__container{
+    max-width: 1200px;
+    padding-top: 120px ;
+}
+.hero__container span{
+    width: 446px;
+    text-transform: uppercase;
+margin-left: 277px;
+    color:#FFFFFF;
+font-family: Lato;
+font-size: 56px;
+font-weight: 700;
+line-height: 67.2px;
+
+padding-top: 120px;
+
+}
+
+
+
+.my{
+    width: 537px;
+height: 81px;
+top: 367px;
+left: 531px;
+gap: 0px;
+opacity: 80%;
+
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 60px;
+
+}
+
+.btn{
+    width:260px;
+height:60px;
+
+border: none;
+padding: 22px 6px 22px 16px;
+margin-left: 470px;
+margin-top: 50px;
+background: #AE7B3C;
+cursor: pointer;
+transition: all 0.5s;
+
+
+}
+
+.btn a{width: 155px;
+    height: 16px;
+  
+    
+    text-decoration: none;
+    font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+color:#FFFFFF;
+width: 155px;
+
+}
+
+.btn:hover{
+    content: "";
+    background-color: #7b4f03;
+   
+}
+.rec{
+    width: 1200px;
+height: 0px;
+
+border: 1px solid #FFFFFF;
+margin-top: 120px;
+opacity: 40%;
+
+}
+
+
+
+.flexca{
+
+    display: flex;
+    gap: 10px;
+    margin-left: 0;
+
+}
+
+.img2{
+    margin-left: 0;
+}
+
+
+.oval1{
+    width: 32px;
+height: 32px;
+border-radius: 50%;
+border: 1px solid #FFFFFF;
+opacity: 30%;
+color: #FFFFFF;
+text-align: center;
+padding-top: 4px;cursor: pointer;
+transition: all 0.7s;
+
+display: block;
+}
+
+
+.oval2
+{
+    transition: all 1s;
+   cursor: pointer;
+   color: #fff;
+    width: 32px;
+height: 32px;
+border-radius: 50%;
+border: 1px solid #FFFFFF;
+opacity: 30%;
+text-align: center;
+padding-top: 4px;
+display: block;
+
+
+
+}
+.oval3
+{
+    display: block;
+    transition: all 1s;
+   cursor: pointer;
+   color: #fff;
+    width: 32px;
+height: 32px;
+border-radius: 50%;
+border: 1px solid #FFFFFF;
+opacity: 30%;
+text-align: center;
+padding-top: 4px;
+
+
+
+}
+
+
+.oval1:hover{
+    content:'';
+   
+border-radius: 50%;
+border: 1px solid #FFFFFF;
+opacity: 0.9;
+
+
+}
+
+
+.oval2:hover{
+    content:'';
+   
+border-radius: 50%;
+border: 1px solid #FFFFFF;
+opacity: 0.9;
+
+
+}
+
+.oval3:hover{
+    content:'';
+   
+border-radius: 50%;
+border: 1px solid #FFFFFF;
+opacity: 0.9;
+
+
+}
+
+
+.ovals{
+    margin-top: 25px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 1080px;
+}
+
+
+
+
+.osnoviy{
+    width: 100%;
+    height: 876px;
+     margin-top: 140px;
+     margin-bottom: 0px;
+}
+
+
+
+.osnoviy__container{
+    max-width: 1200px;
+    height: 596px;
+
+}
+
+.o{
+    width: 488px;
+height: 58px;
+margin-top: 140px;
+font-family: Raleway;
+font-size: 46px;
+font-weight: 600;
+line-height: 57.5px;
+text-align: center;
+color: #282B22;
+margin-left: 356px;
+
+}
+
+
+.box1{
+    width: 384px;
+height: 458px;
+padding-left: 30px;
+border: 1px solid ;
+border-color:transparent transparent transparent rgb(40, 43, 34,50%);
+
+
+}
+
+.box1 h3{
+
+    width: 27px;
+
+margin-left: 0px;
+opacity: 50%;
+
+font-family: Raleway;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+
+color: #282B22;
+
+}
+.box1 p {
+
+  width: 196px;
+  margin-left: 0;
+  margin-top: 60px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #3D4A39;
+    margin-bottom: 30px;
+
+     
+}
+
+.box{
+    width: 1200px; 
+    align-items: center;
+    display: flex;
+    gap: 29px;
+    margin-top: 80px;
+}
+
+
+
+.box2{
+    width: 390px;
+height: 458px;
+padding-left: 24px;
+border: 1px solid ;
+border-color:transparent  transparent transparent rgb(40, 43, 34,50%);
+
+
+}
+
+.box2 h3{
+
+    width: 27px;
+
+margin-left: 0px;
+opacity: 50%;
+
+font-family: Raleway;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+
+color: #282B22;
+
+}
+.box2 p {
+
+  width: 244px;
+  margin-left: 0;
+  margin-top: 60px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #3D4A39;
+    margin-bottom: 30px;
+
+     
+}
+
+
+
+
+.box3{
+    width: 384px;
+height: 458px;
+padding-left: 24px;
+border: 1px solid ;
+border-color:transparent rgb(40, 43, 34,50%) transparent   rgb(40, 43, 34,50%);
+
+
+}
+
+.box3 h3{
+
+    width: 27px;
+
+margin-left: 0px;
+opacity: 50%;
+
+font-family: Raleway;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+
+color: #282B22;
+
+}
+.box3 p {
+
+  width: 298px;
+  margin-left: 0;
+  margin-top: 60px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #3D4A39;
+    margin-bottom: 30px;
+
+     
+}
+
+
+.vas{
+    width: 1600px;
+    height: 688px;
+    background: #3D4A39;
+margin-top: 0;
+}
